@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(10, 107, 10);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox {
+    position: absolute;
+    top: 9px;
+    right: 110px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#highScoreBox {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.game-board {
+    height: 90vh;
+    width: 50%;
+    background: linear-gradient(rgb(161, 214, 161), rgb(223, 223, 98));
+    border: 2px solid black;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+
+}
+
+.head {
+    background: radial-gradient(circle at 30% 30%, #ff8080, #ff0000);
+    border: 2px solid #800000;
+    border-radius: 40%;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
+.snake {
+    background: linear-gradient(135deg, #32cd32, #006400);
+    border: 1px solid #003300;
+    border-radius: 20%;
+}
+
+.food {
+    background: radial-gradient(circle, #ffff00, #ff4500);
+    border: 2px solid #b22222;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+}
