@@ -21,4 +21,4 @@ https://snakemia-ek-gaming-katha.netlify.app
 * JavaScript
 ## Screenshot
 
-![Snake Game](screenshot.png)
+![Snake Game](Snakemia_Screenshot.png)
